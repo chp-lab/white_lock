@@ -6,7 +6,7 @@
 
 2. เตรียมโค้ดบอท
 ```
-    $ git clone https://github.com/developer-space/medbox.git
+    $ git clone https://github.com/chp-lab/white_lock.git
     $ cd medbox
     $ npm install
 ```
@@ -23,14 +23,8 @@
         "LOGSERVER": "https://example.com"      <=== url server สำหรับเก็บ log การใช้งาน
     }
 ```
-
+  ไฟล์ medbox.js ที่ห่อ OneChat อยู่นี่
 - public/js/medbox.js
-```
-    # บรรทัดที่ 140-143
-    let serviceuuid = <service_uuid>;
-    let characteristicuuid = <characteristic_uuid>;
-    let datawrite = '0006CC59513C4CAA6116D34BF71000B12EF8';
-    let data_type = 'hex'; // text/hex
 ```
 
 4. run bot
